@@ -1,4 +1,4 @@
-import time;  # 引入time模块
+import time
 
 localTime = time.localtime()
 transTime = time.strftime("%H:%M:%S",localTime)
