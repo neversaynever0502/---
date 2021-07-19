@@ -39,7 +39,7 @@ setInterval(function(){
 // 3-2解答
 for(i=0;i<3;i++){
   let random = Math.random();
-  if(random<1/3){
+  if(random<0.2){
     console.log('中獎')
   }else{
     console.log('沒中獎')
